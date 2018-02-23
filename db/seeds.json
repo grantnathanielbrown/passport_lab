@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Wingos",
+    "owner": "Zakk",
+    "type": "American",
+    "capacity": 5
+  },
+  {
+    "name": "Jaleo",
+    "owner": "Jose Andres",
+    "type": "Spanish",
+    "capacity": 100
+  },
+  {
+    "name": "Jimmy Johns",
+    "owner": "Jimmy",
+    "type": "Sandwiches",
+    "capacity": 50000000000
+  }
+]

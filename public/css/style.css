@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a,
+button,
+input[type='submit'] {
+  display: inline-block;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.restaurant-list {
+  list-style-type: none;
+}
+
+.restaurant-list__item {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.restaurant-list__item span {
+  display: block;
+  font-size: 0.6rem;
+}
+
+.restaurant-list__item .name {
+  font-size: 1.2rem;
+}
+
+.restaurant-list__item .owner {
+}
+
+.restaurant-list__item .type {
+}
+
+.restaurant-list__item .capacity {
+}

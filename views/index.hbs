@@ -1,0 +1,14 @@
+<h2>Restaurants</h2>
+
+{{#if restaurants}}
+  <ul class="restaurant-list">
+    {{#each restaurants}}
+      <li class="restaurant-list__item"><a href="/restaurants/{{this.id}}">{{this.name}}</a></li>
+    {{/each}}
+  </ul>
+{{/if}}
+
+<p>
+  <a href="/restaurants">See All Restaurants</a> | 
+  <a href="/restaurants/new">New Restaurant</a>
+</p>

@@ -1,0 +1,11 @@
+<h2>{{name}}</h2>
+
+<p>Owner: {{owner}}</p>
+<p>Type: {{type}}</p>
+<p>Capacity: {{capacity}}</p>
+
+<a href="/restaurants/edit/{{id}}">Edit</a>
+
+<form action="/restaurants/{{id}}?_method=delete" method="post">
+  <input type="submit" value="Delete" />
+</form>

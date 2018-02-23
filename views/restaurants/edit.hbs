@@ -1,0 +1,23 @@
+<h2>Edit: {{title}}</h2>
+
+<form action="/restaurants/{{id}}?_method=put" method="post">
+  <p>
+    <label>Name:</label>
+    <input type="text" value="{{name}}" name="restaurant[name]"/>
+  </p>
+  <p>
+    <label>Owner:</label>
+    <input type="text" value="{{owner}}" name="restaurant[owner]"/>
+  </p>
+  <p>
+    <label>Type:</label>
+    <input type="text" value="{{type}}" name="restaurant[type]"/>
+  </p>
+  <p>
+    <label>Capacity:</label>
+    <input type="number" value="{{capacity}}" name="restaurant[capacity]"/>
+  </p>
+  <p>
+    <input type="submit" value="Submit"/>
+  </p>
+</form>

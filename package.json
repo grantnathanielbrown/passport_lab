@@ -1,0 +1,20 @@
+{
+  "name": "yum",
+  "version": "1.0.0",
+  "description": "YUM!  Cookies!",
+  "main": "index.js",
+  "author": "WDI",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "flash": "^1.1.0",
+    "hbs": "^4.0.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sessions": "0.0.2-7"
+  }
+}
